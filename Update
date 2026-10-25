@@ -1,0 +1,5 @@
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      989       1     989       7832  cons0     197609 19:15:31 /usr/bin/bash
+     1384     989    1384      19268  cons0     197609 19:29:07 /c/windows/system32/cmd
+     1432    1391    1432      12316  cons1     197609 20:13:17 /usr/bin/PS
+     1391       1    1391      19888  cons1     197609 20:13:12 /usr/bin/bash
