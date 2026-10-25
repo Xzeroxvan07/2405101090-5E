@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Klinik Sehat</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Pasien Klinik Sehat</h1>
+
+    <form action="Formulir_kliniksehat.html" method="get">
+        <p>
+            <label for="nama">Nama Pasien:</label>
+            <input type="text" id="nama" name="nama" />
+        </p>
+
+        <p>
+            <label for="password">Password Akun:</label>
+            <input type="password" id="password" name="password" />
+        </p>
+
+        <p>
+            Jenis Kelamin:
+            <input type="radio" id="laki" name="jenis_kelamin" value="laki-laki" checked />
+            <label for="laki">Laki - Laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" />
+            <label for="perempuan">Perempuan</label>
+        </p>
+
+        <p>
+            Keluhan:
+            <input type="checkbox" id="demam" name="keluhan_demam" />
+            <label for="demam">Demam</label>
+            <input type="checkbox" id="batuk" name="keluhan_batuk" />
+            <label for="batuk">Batuk</label>
+            <input type="checkbox" id="pusing" name="keluhan_pusing" />
+            <label for="pusing">Sakit Kepala</label>
+        </p>
+
+        <p>
+            <label for="poli">Poli Tujuan:</label>
+            <select id="poli" name="poli">
+                <option value="umum" selected>Poli Umum</option>
+                <option value="gigi">Poli Gigi</option>
+                <option value="anak">Poli Anak</option>
+                <option value="kandungan">Poli Kandungan</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="keluhan_lain">Keluhan Lainnya:</label>
+            <br />
+            <textarea id="keluhan_lain" name="keluhan_lain" rows="5" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Daftar Berobat" />
+        </p>
+    </form>
+</body>
+</html>

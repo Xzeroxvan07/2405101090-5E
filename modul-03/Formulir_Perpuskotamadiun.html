@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Perpustakaan Kota Madiun</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Anggota Perpustakaan Kota Madiun</h1>
+
+    <form action="Formulir_Perpuskotamadiun.html" method="get">
+        <p>
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" />
+        </p>
+
+        <p>
+            <label for="password">Password Akun:</label>
+            <input type="password" id="password" name="password" />
+        </p>
+
+        <p>
+            Jenis Kelamin:
+            <input type="radio" id="laki" name="jenis_kelamin" value="laki-laki" checked />
+            <label for="laki">Laki - Laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" />
+            <label for="perempuan">Perempuan</label>
+        </p>
+
+        <p>
+            Keperluan:
+            <input type="checkbox" id="pinjam" name="keperluan_pinjam" checked />
+            <label for="pinjam">Meminjam Buku</label>
+            <input type="checkbox" id="kembali" name="keperluan_kembali" />
+            <label for="kembali">Mengembalikan Buku</label>
+            <input type="checkbox" id="baca" name="keperluan_baca" />
+            <label for="baca">Membaca di Tempat</label>
+        </p>
+
+        <p>
+            <label for="pekerjaan">Pekerjaan:</label>
+            <select id="pekerjaan" name="pekerjaan">
+                <option value="pelajar">Pelajar</option>
+                <option value="mahasiswa" selected>Mahasiswa</option>
+                <option value="pegawai">Pegawai</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="alamat">Alamat:</label>
+            <br />
+            <textarea id="alamat" name="alamat" rows="5" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Daftar" />
+        </p>
+    </form>
+</body>
+</html>
